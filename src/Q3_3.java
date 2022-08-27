@@ -5,11 +5,12 @@ import java.util.Random;
 
 public class Q3_3 {
 	public static void main (String[] args) {
-		Random few = new Random();
 		
-		int asd = few.nextInt(100)+1;
-		System.out.println(asd);
-		if (asd < 50) {
+		Random a = new Random();
+		int b = a.nextInt(100)+1;
+		
+		System.out.println(b);
+		if (b < 50) {
 			System.out.println("50–¢–ž‚Å‚·");
 		}
 	}

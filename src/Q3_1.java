@@ -5,12 +5,13 @@ import java.util.Random;
 
 public class Q3_1 {
 	public static void main (String[] args) {
-		Random ran = new Random();
 		
-		int sei = ran.nextInt(10)+1;
-		System.out.println(sei);
-		if (sei>=5) {
-			System.out.println("5à»è„");
+		Random a = new Random();	
+		int b = a.nextInt(10)+1;
+		
+		System.out.println(b);
+		if (b >= 5) {
+			System.out.println("5à»è„Ç≈Ç∑");
 		}
 	}
 }

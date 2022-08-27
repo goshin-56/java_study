@@ -5,11 +5,12 @@ import java.util.Random;
 
 public class Q3_2 {
 	public static void main(String[] args) {
-		Random koe = new Random();
 		
-		int dau = koe.nextInt(10)+1;
-		System.out.println(dau);
-		if (dau != 1) {
+		Random a = new Random();
+		int b = a.nextInt(10)+1;
+		
+		System.out.println(b);
+		if (b != 1) {
 			System.out.println("‚P‚Å‚Í‚ ‚è‚Ü‚¹‚ñ");
 		}
 	}
