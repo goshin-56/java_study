@@ -3,7 +3,7 @@
 
 import java.util.Random;
 
-public class Q3_1 {
+public class Q3_01 {
 	public static void main (String[] args) {
 		
 		Random a = new Random();	
